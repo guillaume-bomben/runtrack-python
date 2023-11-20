@@ -1,0 +1,3 @@
+al="abcdefghijklmnopqrstuvwxyz"
+
+print(al)

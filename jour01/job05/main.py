@@ -1,0 +1,3 @@
+inval="zyxwvutsrqponmlkjihgfedcba"
+
+print(inval)
