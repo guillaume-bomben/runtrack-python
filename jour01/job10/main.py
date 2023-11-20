@@ -4,7 +4,7 @@ rend = 1.20
 def gain(somme, taux):
     total = somme * taux
     gain = total - somme
-    print( "gain : " + str(gain))
+    print(f"gain : {gain}")
 
 gain(init_inv, rend)
 
