@@ -2,8 +2,7 @@ a = int(input("entrez une longeur a : "))
 b = int(input("entrez une longeur b : ")) 
 c = int(input("entrez une longeur c : ")) 
 
-longeur = [a,b,c]
-print(sorted(longeur))
+longeur = sorted([a,b,c])
 part = 0
 
 if longeur[2] < longeur[0] + longeur[1]:
