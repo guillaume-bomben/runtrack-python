@@ -8,8 +8,9 @@ def moyenne(note1, note2, note3):
         print(f"Moyenne : {moyenne_etudiant} \n Elève moyen")
     if  0 <= moyenne_etudiant <= 7:
         print(f"Moyenne : {moyenne_etudiant} \n Elève devant faire des efforts")
-        
-moyenne(18,18,18)
-moyenne(13,13,13)
-moyenne(9,9,9)
-moyenne(5,5,5)
+
+n1 = int(input("Entrez la première note :"))
+n2 = int(input("Entrez la seconde note :"))
+n3 = int(input("Entrez la troisième note :"))
+moyenne(n1,n2,n3)
+
