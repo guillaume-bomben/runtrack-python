@@ -1,4 +1,4 @@
-def pair_inpair(nombre):
+def pair_impair(nombre):
     if nombre < 0 or type(nombre)!=int:
         print("Le nombre n'est pas positif ou un entier")
     else:
@@ -7,7 +7,6 @@ def pair_inpair(nombre):
         else:
             print(f"Le nombre {nombre} est impair")
 
-pair_inpair(10)
-pair_inpair(9)
-
-pair_inpair(9.8)
+pair_impair(10)
+pair_impair(9)
+pair_impair(9.8)
