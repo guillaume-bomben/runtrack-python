@@ -14,5 +14,5 @@ elif  11 <= moyenne_etudiant <=14:
 elif  8 <= moyenne_etudiant <=10:
     print(f"Moyenne : {moyenne_etudiant} \n Elève moyen")
 if  0 <= moyenne_etudiant <= 7:
-    print(f"Moyenne : {moyenne_etudiant} \n Elève devant faire des efforts")
+    print(f"Moyenne : {moyenne_etudiant} \n Elève devant faire des efforts")   
 
