@@ -1,3 +1,3 @@
-inval="zyxwvutsrqponmlkjihgfedcba"
+inval="abcdefghijklmnopqrstuvwxyz"
 
-print(inval)
+print(inval[::-1])
