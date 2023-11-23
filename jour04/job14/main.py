@@ -15,7 +15,7 @@ def my_long_world(longeur, phrase):
         longeur = 0
         for letter in mot:
             longeur += 1 
-        if longeur >= 3 :
+        if longeur > 3 :
             new_phrase += mot + " "
     print(new_phrase)
     
